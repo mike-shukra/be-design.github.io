@@ -1,0 +1,170 @@
+/* `Basic HTML
+----------------------------------------------------------------------------------------------------*/
+/*@import url(http://fonts.googleapis.com/css?family=Roboto:500,900,100,300,700,400&subset=latin,cyrillic);*/
+
+body {
+  font-size: large;
+  line-height: 2em;
+  font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: normal;
+}
+@media (max-width: 1366px) {
+  body { font-size: large; }
+}
+@media (max-width: 640px) {
+  body { font-size: medium; }
+}
+@media (max-width: 320px) {
+  body { font-size:small; }
+}
+
+/*pre,
+code {
+  font-family: "DejaVu Sans Mono", Menlo, Consolas, monospace;
+}*/
+
+hr {
+  border: 0 solid #ccc;
+  border-top-width: 1px;
+  clear: both;
+  height: 0;
+}
+
+/* Заголовки, текст
+----------------------------------------------------------------------------------------------------*/
+p,
+dl,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol,
+ul,
+pre,
+table,
+address,
+fieldset,
+figure {
+  margin-bottom: 10px;
+}
+
+
+h1 {
+  font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 2.8em;
+  line-height:1.1em;
+  /*font-weight:100;*/
+  /*padding-top: 4vh;*/
+  margin-top: 30px;
+  padding-left:10px;
+  padding-right:10px;
+  padding-bottom:0;
+  margin-bottom:1vh;
+  text-align:right; 
+  color:#b21919;
+  display:block;
+  vertical-align:top;
+  background-color: #acb107;
+}
+
+h2 {
+  font-size: medium;
+  font-size: 1.3em;
+  line-height: 1.5em;
+  /*font-weight:700;*/
+  margin-top: 30px;
+  margin-left: 0;
+  padding-left:10px;
+  padding-right:10px;
+  text-align:left;
+  /*color: #b21919;*/
+  color:#3a3a3a;
+  background-color: #acb107;
+}
+
+h3 {
+  font-size: 1em;
+  line-height: 1.5em;
+  /*font-weight:700;*/
+  text-align:left;
+  color: #000000;
+  padding-top:1.5em;
+  margin:0;
+  padding-bottom:5px;
+}
+
+h4 {
+  font-size: 1em;
+  text-align:left;
+  margin:0;
+  padding-left:0px;
+  padding-top:0.83em;
+  color: #000000;
+}
+
+h5 {
+  font-size: 1em;
+}
+
+h6 {
+  font-size: 1em;
+}
+p{
+  font-size:0.9em;
+  line-height: 1.5em;
+  font-weight:normal;
+  border:0;
+  overflow: hidden;
+  padding: 10px 0 0 10px;
+}
+abbr{
+  font-family: Georgia, "Times new Roman", serif;
+  font-weight:normal;
+}
+p a:hover{
+  color:#faa61a;
+}
+a{
+  color:red;
+  text-decoration: none;
+}
+a:hover{
+  color:#faa61a;
+  text-decoration: none;
+}
+
+/* `Spacing
+----------------------------------------------------------------------------------------------------*/
+
+ol {
+  list-style: decimal;
+  text-align:left;
+}
+
+ul {
+  list-style: disc;
+  text-align:left;
+}
+
+li {
+  margin-left: 30px;
+  text-align:left;
+  line-height:1.2em;
+  margin-bottom:5px;
+}
+
+main li{
+	font-size:0.9em;
+}
+main span{
+	font-size:0.9em;
+	line-height:1em;
+}
+li a{
+	font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+}

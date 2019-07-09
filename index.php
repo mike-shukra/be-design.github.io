@@ -19,7 +19,7 @@
 </head>
 <body>
 <div id="head">
-  <div id="img"><img src='/img/_DSC4896_1.jpg'>
+  <div id="img"><img src='img/_DSC4896_1.jpg'>
 	<div class="vcard">
     <p class="n fn">
       <span class="given-name">Михаил</span>

@@ -1,0 +1,138 @@
+/* `Basic HTML
+----------------------------------------------------------------------------------------------------*/
+@import url(http://fonts.googleapis.com/css?family=Roboto:500,900,100,300,700,400&subset=latin,cyrillic);
+
+body {
+  font-size: x-large;
+  line-height: 2em;
+  font-family:'Roboto', "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+@media (max-width: 1366px) {
+  body { font-size: large; }
+}
+@media (max-width: 743px) {
+  body { font-size: medium; }
+}
+
+
+pre,
+code {
+  font-family: "DejaVu Sans Mono", Menlo, Consolas, monospace;
+}
+
+hr {
+  border: 0 solid #ccc;
+  border-top-width: 1px;
+  clear: both;
+  height: 0;
+}
+
+/* Заголовки, текст
+----------------------------------------------------------------------------------------------------*/
+
+h1 {
+  font-family:'Roboto', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 2.45em;
+  line-height:1.5em;
+  font-weight:100;
+  padding-top: 10vh;
+  padding-left:0px;
+  padding-bottom:1em;
+  text-align: center;
+  color:#F4F4F4;
+}
+
+h2 {
+  font-size: 1.5em;
+  line-height: 1.2em;
+  font-weight:700;
+  margin-top: 30px;
+  margin-left: 0;
+  padding-left: 0;
+  text-align: left;
+  color: #363636;
+  display:block;
+  height:auto;
+
+}
+
+h3 {
+  font-size: 1.15em;
+  line-height: 1.5em;
+  font-weight:700;
+  text-align:left;
+  color: #000000;
+  padding-top:0.83em;
+}
+
+h4 {
+  font-size: 1em;
+  text-align:left;
+  margin:0;
+  padding-left:0px;
+  padding-top:0.83em;
+  color: #363636;
+}
+
+h5 {
+  font-size: 1em;
+}
+
+h6 {
+  font-size: 1em;
+}
+p{
+  font-size:0.9em;
+  line-height: 1.5em;
+  font-weight:400;
+  border:0;
+  overflow: hidden;
+  padding: 10px 0;
+  text-align: center;
+}
+#bottom a.abbr{
+  font-family: Georgia, "Times new Roman", serif;
+  font-weight:normal;
+  text-decoration:none;
+  font-size:2em;
+  display:block;
+  padding:0.1em;
+  margin:10px;
+  margin-bottom:0.9em;
+}
+p a:hover{
+  color:#8B8B8B;
+}
+/* `Spacing
+----------------------------------------------------------------------------------------------------*/
+
+ol {
+  list-style: decimal;
+}
+
+ul {
+  list-style: disc;
+}
+
+li {
+  margin-left: 30px;
+}
+
+p,
+dl,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol,
+ul,
+pre,
+table,
+address,
+fieldset,
+figure {
+  margin-bottom: 20px;
+}

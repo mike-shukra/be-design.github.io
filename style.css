@@ -96,7 +96,7 @@ a {
     list-style: none;
     display: inline-block;
     width: 9.13em;
-    border: 0 solid #7E7E7E;
+    border: 0 solid #d1d1f0;
     border-top-width: 1px;
     border-bottom-width: 1px;
     margin: 0;
@@ -106,7 +106,7 @@ a {
 #menu a {
     display: block;
     padding: 10px 0px 10px 0px;
-    color: #C1C1C1;
+    color: #d1d1f0;
 }
 
 #menu .button_two {
@@ -216,7 +216,7 @@ section.main .button_scroll {
     padding-bottom: 0;
     padding-left: 0;
     padding-right: 0;
-    background-color: rgba(0, 0, 0, 0.50);
+    background-color: rgba(4, 4, 45, 0.50);
     border: 0;
     border-radius: 2.5em 2.5em 2.5em 2.5em;
     position: relative;
@@ -359,7 +359,7 @@ section.main .b_all_box {
 #bottom ul,
 #bottom li,
 #bottom a {
-    color: #8B8B8B;
+    color: #d1d1f0;
 }
 
 #bottom .nobor {
@@ -455,7 +455,7 @@ section.information .info_box li {
     padding: 0.5em;
     padding-left: 0.6em;
     padding-right: 0.6em;
-    background-color: rgba(0, 0, 0, 0.30);
+    background-color: rgba(4, 4, 45, 0.30);
 }
 
 section.information .info_box p {

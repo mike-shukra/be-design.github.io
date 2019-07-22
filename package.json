@@ -1,0 +1,23 @@
+{
+    "name": "be-design.github.io",
+    "version": "1.0.0",
+    "description": "старый сайт",
+    "main": "jquery-1.7.2.min.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "scss": "node-sass -watch scss -o css"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mike-shukra/mike-shukra.github.io.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/mike-shukra/mike-shukra.github.io/issues"
+    },
+    "homepage": "https://github.com/mike-shukra/mike-shukra.github.io#readme",
+    "dependencies": {
+        "node-sass": "^4.12.0"
+    }
+}

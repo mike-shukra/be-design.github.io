@@ -16,6 +16,8 @@
     <meta name="description" content="Графический Дизайнер. Портфолио.">
     <meta name="keywords" content="графический дизайнер портфолио верстальщик разработчик программист вэб полиграфия создание сайта">
     <!--тест-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="scripts.js"></script>
 </head>
 
 <body>
@@ -89,11 +91,13 @@
                 <img alt="pict" src="pict/karo_menu.jpg">
                 <h3 class="b_all_box">Обложка меню</h3>
             </div>
-            <input class="button_scroll active" type="button" id="button_kr1" value="1">
-            <input class="button_scroll" type="button" id="button_kr2" value="2">
-            <input class="button_scroll" type="button" id="button_kr3" value="3">
-            <input class="button_scroll" type="button" id="button_kr4" value="4">
-            <input class="button_scroll" type="button" id="button_kr5" value="5">
+            <div class="slide-kr">
+                <input onclick="buttonLoadClick('slide-kr', this, 'parts/scroll-kr-1.html')" class="button_scroll active" type="button" id="button_kr1" value="1">
+                <input onclick="buttonLoadClick('slide-kr', this, 'parts/scroll-kr-2.html')" class="button_scroll" type="button" id="button_kr2" value="2">
+                <input onclick="buttonLoadClick('slide-kr', this, 'parts/scroll-kr-3.html')" class="button_scroll" type="button" id="button_kr3" value="3">
+                <input onclick="buttonLoadClick('slide-kr', this, 'parts/scroll-kr-4.html')" class="button_scroll" type="button" id="button_kr4" value="4">
+                <input onclick="buttonLoadClick('slide-kr', this, 'parts/scroll-kr-5.html')" class="button_scroll" type="button" id="button_kr5" value="5">
+            </div>
         </div>
 
         <div class="full_page">
@@ -116,8 +120,10 @@
                 <img alt="pict" src="pict/markopolo.jpg">
                 <h3 class="b_all_box">Флаер ресторана «Марко Поло» 105x148мм</h3>
             </div>
-            <input class="button_scroll active" type="button" id="button_mp1" value="1">
-            <input class="button_scroll" type="button" id="button_va2" value="2">
+            <div class="slide2-1">
+                <input onclick="buttonLoadClick('slide2-1', this, 'parts/scrollmp1.html')" class="button_scroll active" type="button" id="button_mp1" value="1">
+                <input onclick="buttonLoadClick('slide2-1', this, 'parts/scrollva2.html')" class="button_scroll" type="button" id="button_va2" value="2">
+            </div>
         </div>
 
         <div class="full_page">
@@ -126,9 +132,11 @@
                 <img alt="pict" src="pict/grafiartkat.jpg">
                 <h3 class="b_all_box">Каталог А5</h3>
             </div>
-            <input class="button_scroll active" type="button" id="button_ga1" value="1">
-            <input class="button_scroll" type="button" id="button_ga2" value="2">
-            <input class="button_scroll" type="button" id="button_ga3" value="3">
+            <div class="slide-ga">
+                <input onclick="buttonLoadClick('slide-ga', this, 'parts/scroll-ga-1.html')" class="button_scroll active" type="button" id="button_ga1" value="1">
+                <input onclick="buttonLoadClick('slide-ga', this, 'parts/scroll-ga-2.html')" class="button_scroll" type="button" id="button_ga2" value="2">
+                <input onclick="buttonLoadClick('slide-ga', this, 'parts/scroll-ga-3.html')" class="button_scroll" type="button" id="button_ga3" value="3">
+            </div>
         </div>
 
         <div class="full_page">
@@ -137,15 +145,17 @@
                 <img alt="pict" src="pict/km1.jpg">
                 <h3 class="b_all_box">Модуль полоса</h3>
             </div>
-            <input class="button_scroll active" type="button" id="button_km1" value="1">
-            <input class="button_scroll" type="button" id="button_km2" value="2">
-            <input class="button_scroll" type="button" id="button_km3" value="3">
-            <input class="button_scroll" type="button" id="button_km4" value="4">
-            <input class="button_scroll" type="button" id="button_km5" value="5">
-            <input class="button_scroll" type="button" id="button_km6" value="6">
-            <input class="button_scroll" type="button" id="button_km7" value="7">
-            <input class="button_scroll" type="button" id="button_km8" value="8">
-            <input class="button_scroll" type="button" id="button_km9" value="9">
+            <div class="slide-km">
+                <input onclick="buttonLoadClick('slide-km', this, 'parts/scroll-km-1.html')" class="button_scroll active" type="button" id="button_km1" value="1">
+                <input onclick="buttonLoadClick('slide-km', this, 'parts/scroll-km-2.html')" class="button_scroll" type="button" id="button_km2" value="2">
+                <input onclick="buttonLoadClick('slide-km', this, 'parts/scroll-km-3.html')" class="button_scroll" type="button" id="button_km3" value="3">
+                <input onclick="buttonLoadClick('slide-km', this, 'parts/scroll-km-4.html')" class="button_scroll" type="button" id="button_km4" value="4">
+                <input onclick="buttonLoadClick('slide-km', this, 'parts/scroll-km-5.html')" class="button_scroll" type="button" id="button_km5" value="5">
+                <input onclick="buttonLoadClick('slide-km', this, 'parts/scroll-km-6.html')" class="button_scroll" type="button" id="button_km6" value="6">
+                <input onclick="buttonLoadClick('slide-km', this, 'parts/scroll-km-7.html')" class="button_scroll" type="button" id="button_km7" value="7">
+                <input onclick="buttonLoadClick('slide-km', this, 'parts/scroll-km-8.html')" class="button_scroll" type="button" id="button_km8" value="8">
+                <input onclick="buttonLoadClick('slide-km', this, 'parts/scroll-km-9.html')" class="button_scroll" type="button" id="button_km9" value="9">
+            </div>
         </div>
 
         <div class="full_page">
@@ -162,8 +172,8 @@
                 <img alt="pict" src="pict/nevagar.jpg">
                 <h3 class="b_all_box">«Нева Гарант», вариант</h3>
             </div>
-            <input class="button_scroll active" type="button" id="button_l1" value="1">
-            <input class="button_scroll" type="button" id="button_l2" value="2">
+            <input onclick="buttonLoadClick('slide-l', this, 'parts/scroll-l-1.html')"  class="button_scroll active" type="button" id="button_l1" value="1">
+            <input onclick="buttonLoadClick('slide-l', this, 'parts/scroll-l-2.html')"  class="button_scroll" type="button" id="button_l2" value="2">
         </div>
         <div class="full_page">
             <h2>Макеты для журнала «Стройпарк»</h2>
@@ -171,12 +181,14 @@
                 <img alt="pict" src="pict/spark1.jpg">
                 <h3 class="b_all_box">Модуль для журнала «Стройпарк», 1/8 (90x60мм)</h3>
             </div>
-            <input class="button_scroll active" type="button" id="button_sp1" value="1">
-            <input class="button_scroll" type="button" id="button_sp2" value="2">
-            <input class="button_scroll" type="button" id="button_sp3" value="3">
-            <input class="button_scroll" type="button" id="button_sp4" value="4">
-            <input class="button_scroll" type="button" id="button_sp5" value="5">
-            <input class="button_scroll" type="button" id="button_sp6" value="6">
+            <div class="slide-sp">
+                <input onclick="buttonLoadClick('slide-sp', this, 'parts/scroll-sp-1.html')" class="button_scroll active" type="button" id="button_sp1" value="1">
+                <input onclick="buttonLoadClick('slide-sp', this, 'parts/scroll-sp-2.html')" class="button_scroll" type="button" id="button_sp2" value="2">
+                <input onclick="buttonLoadClick('slide-sp', this, 'parts/scroll-sp-3.html')" class="button_scroll" type="button" id="button_sp3" value="3">
+                <input onclick="buttonLoadClick('slide-sp', this, 'parts/scroll-sp-4.html')" class="button_scroll" type="button" id="button_sp4" value="4">
+                <input onclick="buttonLoadClick('slide-sp', this, 'parts/scroll-sp-5.html')" class="button_scroll" type="button" id="button_sp5" value="5">
+                <input onclick="buttonLoadClick('slide-sp', this, 'parts/scroll-sp-6.html')" class="button_scroll" type="button" id="button_sp6" value="6">
+            </div>
         </div>
     </section>
 
@@ -263,11 +275,8 @@
         <!--<li class='socialicon'><a href='skype:white.electric.dog'><i class="fa fa-skype" aria-hidden="true"></i></a></li>-->
     </div>
 
-    <!--<script type="text/javascript" src="jquery-1.7.2.min.js"></script>-->
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
-    <script type="text/javascript" src="scripts.js"></script>
 
     <!--
     <script>

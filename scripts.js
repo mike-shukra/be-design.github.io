@@ -39,7 +39,6 @@ function buttonLoadClick(name, buttonId, url) {
             element.removeClass("active");
         });
         $(buttonId).addClass("active");
-        // $('#button_kr2').removeClass("active");
 }
 
 // конец аякс меню

@@ -1,2 +1,2 @@
 # be-design.spb.ru
-старый сайт, был тут: http://be-design.ru/
+старый сайт: https://mike-shukra.github.io/
